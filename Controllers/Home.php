@@ -4,6 +4,7 @@
         function __construct()
         {
             parent::__construct();
+            $this->view->render('home/index');
             echo "<p>Controlador 'Home'...</p>";
         }   
 
