@@ -6,13 +6,19 @@ class App{
 
     function __construct()
     {
-        echo "<p>Nueva App</p>";
+        // echo "<p>Nueva App</p>";
 
-        $url = $_GET['url'];
+        $url = !empty($_GET['url']) ? $_GET['url'] : null;
         $url = rtrim($url. '/');
         $url = explode('/', $url);
         // var_dump($url);
-
+        if(empty($url[0])){
+            $defaultController = 'Controllers/home.php';
+            require_once $defaultController;
+            $controller = new Home();
+            return false;
+        }
+        
         $selectController = 'Controllers/'. $url[0] . '.php';
         if(file_exists($selectController)){
             
