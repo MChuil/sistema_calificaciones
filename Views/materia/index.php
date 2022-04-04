@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="color:red;"><?= $this->mensaje ?></h1>
+    <h1>Vista de  Materias</h1>
 </body>
 </html>

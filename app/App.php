@@ -13,10 +13,10 @@ class App{
         $url = explode('/', $url);
         // var_dump($url);
 
-        $homeController = 'Controllers/'. $url[0] . '.php';
-        if(file_exists($homeController)){
+        $selectController = 'Controllers/'. $url[0] . '.php';
+        if(file_exists($selectController)){
             
-            require_once $homeController;
+            require_once $selectController;
             $controller = new $url[0];
             
             if(!empty($url[1])){
