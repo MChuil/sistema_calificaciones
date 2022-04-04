@@ -4,6 +4,7 @@
         function __construct()
         {
             parent::__construct();
+            $this->view->title = "Sistema de Calificaciones";
             $this->view->render('home/index');
             // echo "<p>Controlador 'Home'...</p>";
         }   
