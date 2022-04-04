@@ -1,5 +1,6 @@
 <?php 
     
+    require_once 'app/DataBase.php';
     require_once 'app/View.php';
     require_once 'app/Controller.php';
     require_once 'app/Model.php';
