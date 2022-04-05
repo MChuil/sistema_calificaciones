@@ -41,13 +41,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= constant('URL') ?>/" class="nav-link">
+                            <a href="<?= constant('URL') ?>/nuevoalumno" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Nuevo alumno</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= constant('URL') ?>/alumnos" class="nav-link">
+                            <a href="<?= constant('URL') ?>/student" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Listado de alumnos</p>
                             </a>
@@ -64,13 +64,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= constant('URL') ?>/" class="nav-link">
+                            <a href="<?= constant('URL') ?>/nuevamateria" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Nueva materia</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= constant('URL') ?>/materias" class="nav-link">
+                            <a href="<?= constant('URL') ?>/materia" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Listado de materias</p>
                             </a>
@@ -87,13 +87,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= constant('URL') ?>/" class="nav-link">
+                            <a href="<?= constant('URL') ?>/nuevogrupo" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Nuevo grupo</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= constant('URL') ?>/grupos" class="nav-link">
+                            <a href="<?= constant('URL') ?>/group" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Listado de grupos</p>
                             </a>
@@ -110,13 +110,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= constant('URL') ?>/" class="nav-link">
+                            <a href="<?= constant('URL') ?>/nuevousuario" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Nuevo usuario</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= constant('URL') ?>/usuarios" class="nav-link">
+                            <a href="<?= constant('URL') ?>/user" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Listado de usuario</p>
                             </a>
